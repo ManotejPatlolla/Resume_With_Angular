@@ -1,0 +1,33 @@
+    
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <i  id="linkdin"  class="fa fa-linkedin-square"></i>
+  <i class="fa fa-github"></i>
+  <i class="fa fa-envelope"></i>
+  <i class="fa fa-phone"></i>
+
+
+
+
+
+
+  <ul>
+    <li *ngFor="let list of header">
+        <h1 class="myname">{{list.name}} </h1>
+        <h2 class="fedev">{{list.title}}</h2>
+
+       <h4 class="eemail"><a href="mailto:{{list.email}}">{{list.email}}</a></h4>
+       
+       <div class="threedetails">
+        {{list.contact}}
+        {{list.gitHuburl}}
+        {{list.linkedinUrl}} </div>
+
+        <div class="sideinfo">
+        <h2 class="sideinfo1">{{list.designer}}</h2>
+        <h2 class="sideinfo2">{{list.designer2}}</h2>
+        </div>
+             
+      
+  </ul>
+

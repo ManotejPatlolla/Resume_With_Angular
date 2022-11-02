@@ -1,0 +1,25 @@
+<h2 >EDUCATION</h2>
+<ul style="list-style-type:square">
+    <li *ngFor="let item of education">
+        <section class="study1">
+       <div><b>{{item.school}}</b></div>
+        <div>{{item.program1}}</div>
+        <div>{{item.from1}}</div>
+        </section>
+    
+        <div class="line"></div>
+        <section class="study2">
+        <div><b>{{item.intermediate}}</b></div>
+        <div>{{item.program2}}</div>
+        <div>{{item.from2}}</div>
+        </section>
+        <div></div>
+        <section class="study3">
+            <div><b>{{item.btech}}</b></div>
+            <div>{{item.program3}}</div>
+            <div>{{item.from3}}</div>
+        </section>
+
+          
+    </li>
+</ul>

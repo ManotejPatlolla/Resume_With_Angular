@@ -1,0 +1,30 @@
+h2{
+    background-color: teal;
+    color:white;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+h3 {
+    color:teal;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+
+
+.additionalskills{
+    border-left: 1px solid teal;
+    padding-left: 25px;
+    position: absolute;
+    margin-left:20%;
+    margin-top: -15%;
+}
+

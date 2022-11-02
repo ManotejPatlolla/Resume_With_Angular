@@ -1,0 +1,86 @@
+ul{
+     list-style-type: none;
+    padding: 20px;
+    color:white;
+    background-image: linear-gradient(to left,#02aab0,#096b5b);
+}
+
+.myname{
+    text-shadow:2px 2px 10px black ;
+}
+
+.fedev{
+    margin-top:10px;
+    text-shadow: 2px 2px 8px black;
+}
+
+
+.eemail{
+    margin-left:24px;
+}
+
+.threedetails{
+    margin-top:-10px;
+    margin-left: 20px;
+}
+
+*{
+    background-image:linear-gradient(toleft,#02aab0,#158472);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+.sideinfo{
+float: right;
+margin-top:-200px;
+margin-right:20px;
+font-size: 20px;
+opacity: 0.2;
+color:azure;
+ 
+}
+
+.sideinfo1{
+    font-family:fantasy
+}
+
+.sideinfo2{
+    margin-top: -25px;
+    margin-left: -20px;
+    font-size: 60px;
+    font-family:fantasy
+}
+
+
+
+#linkdin{
+    position: absolute;
+    margin-top: 228px;
+    margin-left: 20px;
+   font-size:large;
+   color:rgb(13, 135, 241);
+}
+
+.fa-github{
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 20px;
+   font-size:large;
+   color:black;
+}
+
+ .fa-envelope{
+    position: absolute;
+    margin-top: 136px;
+    margin-left: 20px;
+   font-size:medium;
+   color:rgb(238, 232, 232);
+ }
+
+ .fa-phone{
+    position: absolute;
+    margin-top: 167px;
+    margin-left: 20px;
+   font-size:large;
+   color:rgb(21, 178, 21);
+ }
